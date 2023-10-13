@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+span{
+    color: red;
+}
+.form h1{
+    color: whitesmoke;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    padding-top:4vh ;
+    letter-spacing: 0.1mm;
+    word-spacing: 0.5mm;
+}
+.form p{
+    color: rgb(255, 213, 122);
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.form{
+    background-image: url("background2.jpg");
+   
+    background-attachment: fixed;
+    padding: 50px;
+    
+}
+
+
+
+/*---------legend--------*/
+
+legend{
+    padding: 3px 5px;
+    
+    box-shadow: 0 0 8px gray;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    border-radius: 5px;
+    color: black;
+    background-color: rgba(241, 239, 213, 0.91);
+}
+
+
+
+/*---------fieldset--------*/
+
+fieldset{
+    background-color: rgba(250, 250, 250, 0.7);
+    border: 2px solid rgb(255, 174, 0);
+    border-radius: 5px;
+    margin: 20px;
+    padding: 15px;
+    box-shadow: 0 0 10px rgb(255, 200, 80);
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 35px;
+}
+
+/*---------input attributes--------*/
+
+input[type='text'],
+input[type='number'],
+
+input[type='date'],
+input[type='email'],
+input[type='file'],
+select{
+    height: 25px;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    padding: 5px;
+    background-color: #ebebeb;
+    
+}
+
+
+::placeholder{
+    font-size: 13px;
+    padding: 8px;
+}
+input[type='text']:hover,
+input[type='number']:hover,
+
+input[type='date']:hover,
+input[type='email']:hover,
+select:hover,
+input[type='file']:hover{
+    
+    box-shadow: 0 0 5px rgb(255, 174, 0);;
+}
+
+
+/*---------button--------*/
+
+input[type='submit']{
+    background-color: whitesmoke;
+    font-family: Bahnschrift, sans-serif;
+    color: black;
+    padding: 8px 20px;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    border-radius: 50px;
+    
+    
+
+}
+input[type='submit']:hover{
+    box-shadow: 0 0 10px orange;
+    background-color: rgb(87, 255, 137);
+    color: darkred;
+}
+
+.cointainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.item{
+ width: 100%;
+ color: black;
+
+}
+
+table, th, td{
+   font-size: 18px;
+   text-align: center;
+
+}
+table{
+    width: 100%;
+    
+}

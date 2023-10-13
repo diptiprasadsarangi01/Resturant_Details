@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: Bahnschrift, sans-serif;
+    margin: 0;
+}
+
+
+
+
+/*---------Main Header--------*/
+header{
+    background-image: url("background2.jpg");
+    color: white;
+    padding: 7vh;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+header h1{
+    padding-bottom: 1.5vh;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header p{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    color: rgb(255, 227, 190);
+}
+header div img{
+    width: 100px;
+    
+}
+#iconimg{
+    display: block;
+}
+.containthead{
+    padding-left: 1vw;
+}
+/*---------Main NavBar-------*/
+nav{
+    background-color: rgb(42, 1, 1);
+    padding: 5px;
+    box-shadow: 0 0 10px black;
+    
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 25px;
+    display: inline-block;
+    border-radius: 5px;
+}
+nav a i{
+    color: white;
+    z-index: 10;
+    background-color: aliceblue;
+
+}
+nav a:hover{
+    background-color: darkred;
+}
+#active{
+    background: rgba(204, 204, 204, 0.226);
+}
+/*---------Main Side Bar---------*/
+aside{
+    background-image: url("background2.jpg");
+    float: left;
+    box-shadow: 0 0 10px black;
+    padding: 0;
+    width: 250px;
+    text-align: center;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+    overflow: auto;
+
+}
+aside a{
+    margin: 0;
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 25px;
+    font-size: 18px;
+    
+    
+}
+aside a:hover{
+    background-color: rgba(0,0,0,0.5);
+    box-shadow: 0 0 5px white;
+}
+/*---------Main Content Section-------*/
+section{
+    padding: 20px;
+    margin-left: 280px;
+}
+article h2{
+    font-size: 35px;
+    color: darkred;
+}
+article p{
+    font-size: 20px;
+    color: gray;
+}
+/*--------Main Footer------*/
+footer{
+    margin-left: 230px;
+    background-image: url("background2.jpg");
+    padding: 12px;
+    color: white;
+    text-align: center;
+}
+footer a{
+    text-decoration: none;
+    color: orange;
+}
+
+/* Gallery Section */
+.gallery-section{
+    text-align: center;
+    margin: 10px 0;
+}
+.gallery-figure{
+    border: 2px solid darkred;
+    width: 300px;
+    display: inline-block;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
+}
+.gallery-figure:hover{
+    box-shadow: 0 0 10px darkred;
+}
+.gallery-zoom{
+    width: 288px;
+    height: 200px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.gallery-zoom img{
+    width: inherit;
+    height: inherit;
+    transition: all 0.5s;
+}
+.gallery-zoom:hover img{
+    transform: scale(1.2,1.2);
+    cursor: pointer;
+}
+.gallery-figure figcaption{
+    color: darkred;
+    font-family: 'Grenze Gotisch', cursive;
+    font-size: 22px;
+    padding: 10px;
+}
+#galft{
+   margin-left: 0;
+    background-image: url("background2.jpg");
+    padding: 25px;
+    color: white;
+    text-align: center;
+}
+/* About Section */
+.about-section{
+
+    background-image: url("background2.jpg");
+    margin: auto;
+}
+.about-article{
+    background: rgb(255, 255, 255);
+    color: white;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px darkred;
+}
+.about-article:hover{
+    box-shadow: 0 0 10px orange;
+}
+.about-article h2{
+    
+    font-size: 32px;
+    color: darkred;
+    text-shadow: 0 0 1px white;
+}
+.about-article p{
+    text-align: justify;
+    font-size: 18px;
+    
+}
